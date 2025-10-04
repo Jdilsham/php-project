@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which property is used to change the background color in CSS?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor",
+      "background"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<lb>",
+      "<ln>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "href"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": [
+      "font-style",
+      "font-size",
+      "text-size",
+      "text-style"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you make a list that lists its items with numbers?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<dl>",
+      "<list>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which HTML tag is used to define a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<hyperlink>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "In CSS, how do you select an element with id 'header'?",
+    "options": [
+      ".header",
+      "#header",
+      "*header",
+      "header"
+    ],
+    "answer": "#header"
+  },
+  {
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<section>",
+      "<aside>"
+    ],
+    "answer": "<footer>"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Hyperlinking Text Marking Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which CSS property is used to change the font of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-weight",
+      "text-style"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you create a checkbox in HTML?",
+    "options": [
+      "<input type='checkbox'>",
+      "<checkbox>",
+      "<input type='check'>",
+      "<check>"
+    ],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": [
+      "<head>",
+      "<meta>",
+      "<title>",
+      "<header>"
+    ],
+    "answer": "<title>"
+  },
+  {
+    "question": "How can you make a numbered list in HTML?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ol>"
+  }
+]

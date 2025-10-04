@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the default access modifier for a class in C#?",
+    "options": ["public", "private", "internal", "protected"],
+    "answer": "internal"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in C#?",
+    "options": ["inherits", "extends", "implements", ":"],
+    "answer": ":"
+  },
+  {
+    "question": "Which of the following is NOT a value type in C#?",
+    "options": ["int", "float", "string", "bool"],
+    "answer": "string"
+  },
+  {
+    "question": "What is the correct way to declare a delegate in C#?",
+    "options": [
+      "delegate void MyDelegate();",
+      "delegate MyDelegate void();",
+      "void delegate MyDelegate();",
+      "MyDelegate delegate void();"
+    ],
+    "answer": "delegate void MyDelegate();"
+  },
+  {
+    "question": "Which method is the entry point of a C# program?",
+    "options": ["Main()", "Start()", "Init()", "Run()"],
+    "answer": "Main()"
+  },
+  {
+    "question": "What does the 'static' keyword mean in C#?",
+    "options": [
+      "Variable can change values",
+      "Method belongs to the class, not instance",
+      "Variable is constant",
+      "Class can be instantiated"
+    ],
+    "answer": "Method belongs to the class, not instance"
+  },
+  {
+    "question": "Which C# keyword is used to define an interface?",
+    "options": ["interface", "class", "struct", "implements"],
+    "answer": "interface"
+  },
+  {
+    "question": "How do you create an array of integers in C#?",
+    "options": [
+      "int[] arr = new int[5];",
+      "int arr = new int[5];",
+      "array int arr = new int[5];",
+      "int arr[] = new int[5];"
+    ],
+    "answer": "int[] arr = new int[5];"
+  },
+  {
+    "question": "What is the output of Console.WriteLine(5 + \"5\"); in C#?",
+    "options": ["10", "55", "Error", "5 5"],
+    "answer": "55"
+  },
+  {
+    "question": "Which exception is thrown when a null object is accessed in C#?",
+    "options": [
+      "NullReferenceException",
+      "ArgumentException",
+      "IndexOutOfRangeException",
+      "IOException"
+    ],
+    "answer": "NullReferenceException"
+  },
+  {
+    "question": "Which keyword is used for exception handling in C#?",
+    "options": ["try", "catch", "finally", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is LINQ in C#?",
+    "options": [
+      "Language Integrated Query",
+      "Local Internet Network Query",
+      "Lightweight Network Query",
+      "Logical INtensive Query"
+    ],
+    "answer": "Language Integrated Query"
+  },
+  {
+    "question": "What does 'var' keyword do in C#?",
+    "options": [
+      "Declares a variable with implicit type",
+      "Declares a variable of type var",
+      "Declares a constant",
+      "Declares a static variable"
+    ],
+    "answer": "Declares a variable with implicit type"
+  },
+  {
+    "question": "Which data type is used to store a true or false value?",
+    "options": ["int", "bool", "string", "float"],
+    "answer": "bool"
+  },
+  {
+    "question": "What symbol is used for single-line comments in C#?",
+    "options": ["//", "/*", "#", "--"],
+    "answer": "//"
+  }
+]

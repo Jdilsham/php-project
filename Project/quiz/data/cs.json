@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Programming Unit",
+      "Control Processing Unit"
+    ],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Which data structure uses FIFO order?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "question": "Which of these sorting algorithms has the best average case performance?",
+    "options": ["Bubble Sort", "Quick Sort", "Selection Sort", "Insertion Sort"],
+    "answer": "Quick Sort"
+  },
+  {
+    "question": "What is a linked list?",
+    "options": [
+      "A linear collection of elements",
+      "A collection of nodes with pointers",
+      "A collection of key-value pairs",
+      "A tree structure"
+    ],
+    "answer": "A collection of nodes with pointers"
+  },
+  {
+    "question": "What is the main function of an Operating System?",
+    "options": [
+      "Manage hardware resources",
+      "Run applications",
+      "Store data",
+      "Provide internet access"
+    ],
+    "answer": "Manage hardware resources"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Readily Available Memory",
+      "Rapid Access Module"
+    ],
+    "answer": "Random Access Memory"
+  },
+  {
+    "question": "Which of these is NOT a programming paradigm?",
+    "options": ["Procedural", "Object-oriented", "Functional", "Mechanical"],
+    "answer": "Mechanical"
+  },
+  {
+    "question": "What is recursion in programming?",
+    "options": [
+      "Function calling itself",
+      "A loop structure",
+      "An error",
+      "A variable type"
+    ],
+    "answer": "Function calling itself"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "Hyperlink Text Markup Language",
+      "Home Tool Markup Language",
+      "HyperText Makeup Language"
+    ],
+    "answer": "HyperText Markup Language"
+  },
+  {
+    "question": "Which data structure is used in Depth First Search (DFS)?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "answer": "Stack"
+  },
+  {
+    "question": "What is the binary representation of decimal 10?",
+    "options": ["1010", "1001", "1100", "1110"],
+    "answer": "1010"
+  },
+  {
+    "question": "What is a pointer?",
+    "options": [
+      "Variable that stores address of another variable",
+      "Variable that stores value",
+      "Function",
+      "Data type"
+    ],
+    "answer": "Variable that stores address of another variable"
+  },
+  {
+    "question": "What is the size of an int data type in most programming languages?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler"],
+    "answer": "Depends on compiler"
+  },
+  {
+    "question": "Which of these is a NoSQL database?",
+    "options": ["MySQL", "MongoDB", "PostgreSQL", "Oracle"],
+    "answer": "MongoDB"
+  }
+]

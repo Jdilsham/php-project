@@ -1,0 +1,1000 @@
+{
+  "responses": [
+    {
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "greetings",
+        "welcome",
+        "good day",
+        "howdy",
+        "what's up",
+        "hi there",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good night",
+        "salutations"
+      ],
+      "response": "Hello! How can I help you today?"
+    },
+    {
+      "keywords": [
+        "how are you",
+        "how do you do",
+        "what's up",
+        "how's it going",
+        "how's everything",
+        "how's life",
+        "how are things"
+      ],
+      "response": "I'm doing great! Thanks for asking. How can I assist you?"
+    },
+    {
+      "keywords": [
+        "help",
+        "support",
+        "assistance",
+        "aid",
+        "guide",
+        "need help",
+        "need assistance",
+        "can you help"
+      ],
+      "response": "I'm here to help! Please let me know what you need assistance with."
+    },
+    {
+      "keywords": [
+        "courses",
+        "course",
+        "class",
+        "classes",
+        "program",
+        "programs",
+        "learning",
+        "education",
+        "training"
+      ],
+      "response": "We offer various courses including web development, programming, and design. Would you like to know more about any specific course? ",
+      "link": "Project/courses.html"
+    },
+    {
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "reach",
+        "get in touch",
+        "support",
+        "customer service",
+        "contact us"
+      ],
+      "response": "You can contact us through our contact page or reach out via email. How would you prefer to get in touch?",
+      "link": "Project/contact.html"
+    },
+    {
+      "keywords": [
+        "about",
+        "company",
+        "who are you",
+        "what do you do",
+        "information",
+        "details"
+      ],
+      "response": "We are an educational platform providing quality courses and learning resources. Learn more on our about page!",
+      "link": "Project/about.html"
+    },
+    {
+      "keywords": [
+        "price",
+        "cost",
+        "fee",
+        "payment",
+        "pricing",
+        "charges",
+        "rates"
+      ],
+      "response": "Our course prices vary depending on the program. Please check our courses page for detailed pricing information."
+    },
+    {
+      "keywords": [
+        "thank you",
+        "thanks",
+        "appreciate",
+        "grateful",
+        "thanks a lot",
+        "thank you very much"
+      ],
+      "response": "You're very welcome! Is there anything else I can help you with?"
+    },
+    {
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit",
+        "quit",
+        "farewell",
+        "take care",
+        "later"
+      ],
+      "response": "Goodbye! Have a great day and feel free to come back anytime you need help!"
+    },
+    {
+      "keywords": [
+        "feedback",
+        "suggestions",
+        "improvements",
+        "comments",
+        "reviews"
+      ],
+      "response": "We appreciate your feedback! Please let us know how we can improve or what features you would like to see."
+    },
+    {
+      "keywords": [
+        "login",
+        "sign in",
+        "account",
+        "access",
+        "authenticate",
+        "log in"
+      ],
+      "response": "You can log in to your account through our login page. If you don't have an account, you can sign up for one!",
+      "link": "Login/login.php"
+    },
+    {
+      "keywords": [
+        "registration",
+        "sign up",
+        "create account",
+        "join"
+      ],
+      "response": "To register, please visit our sign-up page and fill out the required information. It's quick and easy!",
+      "link": "SignUp/signup.php"
+    },
+    {
+      "keywords": [
+        "faq",
+        "frequently asked questions",
+        "common questions",
+        "help center",
+        "support center"
+      ],
+      "response": "You can find answers to common questions on our FAQ page. If you have more specific queries, feel free to ask!"
+    },
+    {
+      "keywords": [
+        "technical issues",
+        "bugs",
+        "errors",
+        "problems",
+        "issues"
+      ],
+      "response": "If you're experiencing technical issues, please describe the problem in detail so we can assist you better."
+    },
+    {
+      "keywords": [
+        "updates",
+        "news",
+        "announcements",
+        "new features",
+        "latest news"
+      ],
+      "response": "Stay tuned for our latest updates and announcements on our news page. We regularly post about new courses and features!"
+    },
+    {
+      "keywords": [
+        "community",
+        "forum",
+        "discussion",
+        "chat",
+        "social"
+      ],
+      "response": "Join our community forum to discuss topics, share ideas, and connect with other learners. We value your participation!"
+    },
+    {
+      "keywords": [
+        "resources",
+        "materials",
+        "downloads",
+        "learning materials",
+        "study materials",
+        "educational resources"
+      ],
+      "response": "We provide various learning resources and materials. Check out our resources page for downloadable content!"
+    },
+    {
+      "keywords": [
+        "certification",
+        "certificate",
+        "credentials",
+        "qualification",
+        "accreditation"
+      ],
+      "response": "Upon completing a course, you will receive a certificate of completion. This can be a valuable addition to your resume!"
+    },
+    {
+      "keywords": [
+        "privacy",
+        "data protection",
+        "security",
+        "privacy policy",
+        "data privacy"
+      ],
+      "response": "We take your privacy seriously. Please read our privacy policy to understand how we protect your data."
+    },
+    {
+      "keywords": [
+        "terms",
+        "conditions",
+        "policies",
+        "terms of service",
+        "user agreement"
+      ],
+      "response": "Please review our terms and conditions to understand the rules and guidelines for using our platform."
+    },
+    {
+      "keywords": [
+        "dark mode",
+        "light mode",
+        "theme",
+        "appearance",
+        "visual settings"
+      ],
+      "response": "You can switch between dark mode and light mode in the settings. Choose the theme that suits you best!"
+    },
+    {
+      "keywords": [
+        "search",
+        "find",
+        "locate",
+        "look for",
+        "search courses",
+        "search resources"
+      ],
+      "response": "Use the search feature to quickly find courses, resources, or information on our platform."
+    },
+    {
+      "keywords": [
+        "login issues",
+        "forgot password",
+        "reset password",
+        "account recovery",
+        "can't log in"
+      ],
+      "response": "If you're having trouble logging in, you can reset your password using the 'Forgot Password' link on the login page.",
+      "link": "Login/login.php"
+    },
+    {
+      "keywords": [
+        "webinars",
+        "live sessions",
+        "online events",
+        "workshops"
+      ],
+      "response": "Join our webinars and live sessions to learn from experts and interact with instructors in real-time."
+    },
+    {
+      "keywords": [
+        "subscription",
+        "membership",
+        "plans",
+        "pricing plans"
+      ],
+      "response": "We offer various subscription plans to suit your needs. Visit our pricing page for more details."
+    },
+    {
+      "keywords": [
+        "live chat",
+        "chat support",
+        "instant help",
+        "real-time assistance"
+      ],
+      "response": "For instant help, you can use our live chat feature to connect with a support agent."
+    },
+    {
+      "keywords": [
+        "schedule",
+        "timing",
+        "class schedule",
+        "course schedule",
+        "timetable",
+        "when"
+      ],
+      "response": "You can view course schedules and timings on our courses page. Each course has flexible scheduling options to fit your needs.",
+      "link": "Project/courses.html"
+    },
+    {
+      "keywords": [
+        "instructor",
+        "teacher",
+        "tutor",
+        "mentor",
+        "faculty",
+        "staff"
+      ],
+      "response": "Our instructors are industry experts with years of experience. You can view instructor profiles on each course page."
+    },
+    {
+      "keywords": [
+        "beginner",
+        "new",
+        "starter",
+        "basic",
+        "introduction",
+        "getting started"
+      ],
+      "response": "We have beginner-friendly courses designed for those just starting out. No prior experience required for our introductory programs!"
+    },
+    {
+      "keywords": [
+        "advanced",
+        "expert",
+        "professional",
+        "intermediate",
+        "experienced"
+      ],
+      "response": "Looking for advanced courses? We offer professional-level training for experienced learners. Check our advanced course catalog!"
+    },
+    {
+      "keywords": [
+        "mobile",
+        "app",
+        "smartphone",
+        "tablet",
+        "mobile learning"
+      ],
+      "response": "Yes! Our platform is mobile-friendly. You can access courses and materials from any device, anywhere."
+    },
+    {
+      "keywords": [
+        "offline",
+        "download",
+        "offline learning",
+        "without internet"
+      ],
+      "response": "Some course materials can be downloaded for offline viewing. Check individual course details for offline availability."
+    },
+    {
+      "keywords": [
+        "refund",
+        "money back",
+        "return",
+        "cancellation",
+        "cancel"
+      ],
+      "response": "We offer a satisfaction guarantee. Please check our refund policy for details on cancellations and money-back options."
+    },
+    {
+      "keywords": [
+        "duration",
+        "length",
+        "time",
+        "hours",
+        "weeks",
+        "months"
+      ],
+      "response": "Course durations vary from a few hours to several months. Each course page shows the estimated completion time."
+    },
+    {
+      "keywords": [
+        "prerequisites",
+        "requirements",
+        "what do i need",
+        "before starting"
+      ],
+      "response": "Prerequisites are listed on each course page. Most beginner courses have no requirements, while advanced courses may need prior knowledge."
+    },
+    {
+      "keywords": [
+        "group discount",
+        "bulk",
+        "team",
+        "corporate",
+        "organization"
+      ],
+      "response": "We offer special pricing for groups and corporate training. Contact our sales team for bulk enrollment discounts!"
+    },
+    {
+      "keywords": [
+        "progress",
+        "tracking",
+        "completion",
+        "status",
+        "how am i doing"
+      ],
+      "response": "You can track your progress in your student dashboard. It shows completion percentage, grades, and upcoming assignments.",
+      "link": "To-Do/index.php"
+    },
+    {
+      "keywords": [
+        "assignment",
+        "homework",
+        "project",
+        "task",
+        "exercise"
+      ],
+      "response": "Most courses include hands-on assignments and projects. These help reinforce learning and build your portfolio."
+    },
+    {
+      "keywords": [
+        "quiz",
+        "test",
+        "exam",
+        "assessment",
+        "evaluation"
+      ],
+      "response": "Courses include quizzes and assessments to test your understanding. Don't worry - you can retake them if needed!",
+      "link": "Project/quiz/quiz.php"
+    },
+    {
+      "keywords": [
+        "career",
+        "job",
+        "employment",
+        "hiring",
+        "career help"
+      ],
+      "response": "Our courses are designed to boost your career prospects. We also offer career guidance and job placement assistance."
+    },
+    {
+      "keywords": [
+        "discount",
+        "offer",
+        "deal",
+        "promotion",
+        "coupon",
+        "sale"
+      ],
+      "response": "We regularly offer discounts and promotions! Sign up for our newsletter to get notified about special deals."
+    },
+    {
+      "keywords": [
+        "slow internet",
+        "connection",
+        "bandwidth",
+        "loading",
+        "streaming issues"
+      ],
+      "response": "Having connection issues? Try adjusting video quality in settings or download materials for offline viewing."
+    },
+    {
+      "keywords": [
+        "international",
+        "global",
+        "worldwide",
+        "other countries"
+      ],
+      "response": "Yes, our courses are available worldwide! We support multiple payment methods and currencies for international students."
+    },
+    {
+      "keywords": [
+        "languages",
+        "subtitles",
+        "captions",
+        "translation"
+      ],
+      "response": "Many of our courses offer subtitles and captions. Check individual course details for available language options."
+    },
+    {
+      "keywords": [
+        "age limit",
+        "minimum age",
+        "kids",
+        "children",
+        "teenager"
+      ],
+      "response": "Our courses are suitable for learners aged 13 and above. Some courses may have specific age recommendations."
+    },
+    {
+      "keywords": [
+        "study group",
+        "peer learning",
+        "classmates",
+        "collaboration"
+      ],
+      "response": "Join study groups and connect with fellow students through our community forums and discussion boards!"
+    },
+    {
+      "keywords": [
+        "web development",
+        "frontend",
+        "backend",
+        "full stack",
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "angular",
+        "vue"
+      ],
+      "response": "Master web development with our comprehensive courses covering HTML/CSS, JavaScript, React, Angular, and backend technologies. Build real-world projects!"
+    },
+    {
+      "keywords": [
+        "python",
+        "java",
+        "c++",
+        "programming",
+        "coding",
+        "software development",
+        "algorithms",
+        "data structures"
+      ],
+      "response": "Learn programming fundamentals with our courses in Python, Java, C++, and more. Covers algorithms, data structures, and best practices."
+    },
+    {
+      "keywords": [
+        "data science",
+        "machine learning",
+        "ai",
+        "artificial intelligence",
+        "tensorflow",
+        "pytorch",
+        "pandas",
+        "numpy"
+      ],
+      "response": "Dive into data science and AI with hands-on courses covering machine learning, deep learning, and popular frameworks like TensorFlow and PyTorch."
+    },
+    {
+      "keywords": [
+        "mobile development",
+        "android",
+        "ios",
+        "react native",
+        "flutter",
+        "swift",
+        "kotlin",
+        "app development"
+      ],
+      "response": "Build mobile apps for Android and iOS using React Native, Flutter, Swift, or Kotlin. From basics to publishing on app stores!"
+    },
+    {
+      "keywords": [
+        "database",
+        "sql",
+        "mysql",
+        "postgresql",
+        "mongodb",
+        "nosql",
+        "data modeling"
+      ],
+      "response": "Master database management with comprehensive SQL and NoSQL courses. Learn MySQL, PostgreSQL, MongoDB, and advanced data modeling."
+    },
+    {
+      "keywords": [
+        "cybersecurity",
+        "ethical hacking",
+        "penetration testing",
+        "network security",
+        "information security"
+      ],
+      "response": "Protect digital assets with our cybersecurity courses covering ethical hacking, penetration testing, and advanced security practices."
+    },
+    {
+      "keywords": [
+        "ui design",
+        "ux design",
+        "graphic design",
+        "photoshop",
+        "figma",
+        "adobe",
+        "design thinking"
+      ],
+      "response": "Create stunning designs with our UI/UX courses. Learn Figma, Adobe Creative Suite, design thinking, and user-centered design principles."
+    },
+    {
+      "keywords": [
+        "cloud computing",
+        "aws",
+        "azure",
+        "google cloud",
+        "docker",
+        "kubernetes",
+        "devops"
+      ],
+      "response": "Master cloud technologies with courses on AWS, Azure, GCP, Docker, and Kubernetes. Perfect for modern DevOps and cloud architecture."
+    },
+    {
+      "keywords": [
+        "blockchain",
+        "cryptocurrency",
+        "smart contracts",
+        "ethereum",
+        "solidity",
+        "web3"
+      ],
+      "response": "Explore blockchain technology with courses on cryptocurrency, smart contracts, Ethereum, Solidity, and decentralized applications (DApps)."
+    },
+    {
+      "keywords": [
+        "game development",
+        "unity",
+        "unreal engine",
+        "game design",
+        "3d modeling",
+        "animation"
+      ],
+      "response": "Create amazing games with our game development courses using Unity, Unreal Engine, and advanced 3D modeling techniques."
+    },
+    {
+      "keywords": [
+        "digital marketing",
+        "seo",
+        "social media",
+        "content marketing",
+        "google ads",
+        "facebook ads"
+      ],
+      "response": "Boost your marketing skills with courses on SEO, social media marketing, Google Ads, content strategy, and digital advertising."
+    },
+    {
+      "keywords": [
+        "business analytics",
+        "excel",
+        "power bi",
+        "tableau",
+        "data visualization",
+        "statistics"
+      ],
+      "response": "Analyze business data effectively with courses on Excel, Power BI, Tableau, and statistical analysis for business insights."
+    },
+    {
+      "keywords": [
+        "project management",
+        "agile",
+        "scrum",
+        "kanban",
+        "pmp",
+        "project planning"
+      ],
+      "response": "Learn professional project management with Agile, Scrum methodologies, and prepare for PMP certification with our comprehensive courses."
+    },
+    {
+      "keywords": [
+        "networking",
+        "cisco",
+        "ccna",
+        "network administration",
+        "tcp ip",
+        "routing",
+        "switching"
+      ],
+      "response": "Master computer networking with CISCO CCNA preparation, TCP/IP fundamentals, routing, switching, and network troubleshooting."
+    },
+    {
+      "keywords": [
+        "linux",
+        "unix",
+        "command line",
+        "bash",
+        "shell scripting",
+        "system administration"
+      ],
+      "response": "Become proficient in Linux/Unix systems with courses on command line, bash scripting, and system administration skills."
+    },
+    {
+      "keywords": [
+        "version control",
+        "git",
+        "github",
+        "gitlab",
+        "bitbucket",
+        "source control"
+      ],
+      "response": "Master version control with comprehensive Git courses covering GitHub, GitLab, branching strategies, and collaborative development."
+    },
+    {
+      "keywords": [
+        "testing",
+        "automation testing",
+        "selenium",
+        "jest",
+        "unit testing",
+        "qa"
+      ],
+      "response": "Learn software testing with courses on manual testing, automation using Selenium, unit testing frameworks, and QA best practices."
+    },
+    {
+      "keywords": [
+        "api",
+        "rest",
+        "graphql",
+        "microservices",
+        "backend development",
+        "node.js"
+      ],
+      "response": "Build robust APIs and microservices with courses on REST, GraphQL, Node.js, and modern backend development practices."
+    },
+    {
+      "keywords": [
+        "portfolio",
+        "github portfolio",
+        "showcase",
+        "projects",
+        "resume building"
+      ],
+      "response": "Build an impressive portfolio with our guidance on showcasing projects, creating GitHub profiles, and professional resume building."
+    },
+    {
+      "keywords": [
+        "interview preparation",
+        "coding interview",
+        "technical interview",
+        "job hunting",
+        "career transition"
+      ],
+      "response": "Ace your interviews with our comprehensive preparation courses covering coding challenges, system design, and behavioral interviews."
+    },
+    {
+      "keywords": [
+        "freelancing",
+        "remote work",
+        "gig economy",
+        "side hustle",
+        "independent contractor"
+      ],
+      "response": "Start your freelancing journey with courses on finding clients, pricing services, and building a successful remote career."
+    },
+    {
+      "keywords": [
+        "startup",
+        "entrepreneurship",
+        "business plan",
+        "mvp",
+        "lean startup"
+      ],
+      "response": "Launch your startup with courses on entrepreneurship, business planning, MVP development, and lean startup methodologies."
+    },
+    {
+      "keywords": [
+        "soft skills",
+        "communication",
+        "leadership",
+        "teamwork",
+        "presentation skills"
+      ],
+      "response": "Develop essential soft skills with courses on communication, leadership, teamwork, and professional presentation techniques."
+    },
+    {
+      "keywords": [
+        "productivity",
+        "time management",
+        "organization",
+        "workflow",
+        "efficiency"
+      ],
+      "response": "Boost your productivity with courses on time management, organization techniques, and optimizing your learning workflow.",
+      "link": "To-Do/index.php"
+    },
+    {
+      "keywords": [
+        "industry trends",
+        "technology trends",
+        "future skills",
+        "emerging technologies"
+      ],
+      "response": "Stay ahead with our courses on emerging technologies and industry trends. Learn the skills that will be in demand tomorrow."
+    },
+    {
+      "keywords": [
+        "1-on-1",
+        "personal mentor",
+        "private tutoring",
+        "individual coaching"
+      ],
+      "response": "Get personalized attention with our 1-on-1 mentoring sessions and private tutoring options for accelerated learning."
+    },
+    {
+      "keywords": [
+        "enterprise",
+        "corporate training",
+        "custom curriculum",
+        "team training"
+      ],
+      "response": "We offer customized enterprise solutions with tailored curriculum and dedicated support for corporate teams and organizations.",
+      "link": "Admin/admin.php"
+    },
+    {
+      "keywords": [
+        "c#",
+        "csharp",
+        "c sharp",
+        "microsoft",
+        "programming fundamentals"
+      ],
+      "response": "Learn C# programming from scratch with our Microsoft-backed course! Perfect for beginners with no coding experience required.",
+      "link": "Project/course-details.html?id=csharp"
+    },
+    {
+      "keywords": [
+        "computer science",
+        "cs50",
+        "harvard",
+        "algorithms",
+        "data structures"
+      ],
+      "response": "Explore computer science fundamentals with our Harvard University course covering algorithms, data structures, and problem-solving.",
+      "link": "Project/course-details.html?id=cs"
+    },
+    {
+      "keywords": [
+        "notes",
+        "lecture notes",
+        "pdf",
+        "study materials",
+        "download materials"
+      ],
+      "response": "Access comprehensive lecture notes and study materials for all our courses. PDFs are available for download for offline study.",
+      "link": "Project/load-notes.php"
+    },
+    {
+      "keywords": [
+        "todo",
+        "to do",
+        "task management",
+        "assignments",
+        "homework tracker",
+        "study planner"
+      ],
+      "response": "Organize your studies with our integrated To-Do system! Track assignments, set deadlines, and manage your learning schedule effectively.",
+      "link": "To-Do/index.php"
+    },
+    {
+      "keywords": [
+        "admin",
+        "administration",
+        "manage users",
+        "course management",
+        "dashboard"
+      ],
+      "response": "Access the admin dashboard to manage users, courses, and platform settings. Administrative privileges required.",
+      "link": "Admin/admin.php"
+    },
+    {
+      "keywords": [
+        "logout",
+        "sign out",
+        "exit account",
+        "log out"
+      ],
+      "response": "You can safely log out of your account using the logout option. All your progress will be saved automatically.",
+      "link": "Login/logout.php"
+    },
+    {
+      "keywords": [
+        "home",
+        "main page",
+        "homepage",
+        "start page",
+        "landing page"
+      ],
+      "response": "Return to our homepage to explore all available courses and features. Start your learning journey here!",
+      "link": "index.php"
+    },
+    {
+      "keywords": [
+        "course details",
+        "course information",
+        "specific course",
+        "course content"
+      ],
+      "response": "Get detailed information about any course including curriculum, prerequisites, and instructor details on our course pages.",
+      "link": "Project/course-details.html"
+    },
+    {
+      "keywords": [
+        "chatbot",
+        "chat",
+        "messaging",
+        "virtual assistant",
+        "ai helper"
+      ],
+      "response": "I'm your AI learning assistant! I can help you navigate the platform, find courses, and answer questions about our educational offerings."
+    },
+    {
+      "keywords": [
+        "php",
+        "xampp",
+        "localhost",
+        "local development",
+        "web development"
+      ],
+      "response": "Our platform is built with PHP and supports local development environments. Perfect for learning web development hands-on!"
+    },
+    {
+      "keywords": [
+        "responsive",
+        "mobile friendly",
+        "device compatibility",
+        "cross platform"
+      ],
+      "response": "Our platform is fully responsive and works seamlessly across all devices - desktop, tablet, and mobile. Learn anywhere, anytime!"
+    },
+    {
+      "keywords": [
+        "database",
+        "mysql",
+        "data storage",
+        "user data"
+      ],
+      "response": "Your learning progress and data are securely stored in our database. All information is protected and automatically saved."
+    },
+    {
+      "keywords": [
+        "error",
+        "not working",
+        "broken",
+        "can't access",
+        "page not found",
+        "404"
+      ],
+      "response": "If you're experiencing issues, try refreshing the page or clearing your browser cache. For persistent problems, please contact our support team.",
+      "link": "Project/contact.html"
+    },
+    {
+      "keywords": [
+        "forgot username",
+        "account help",
+        "can't remember",
+        "locked out"
+      ],
+      "response": "For account recovery assistance, please contact our support team with your registered email address. We'll help you regain access quickly.",
+      "link": "Project/contact.html"
+    },
+    {
+      "keywords": [
+        "study tips",
+        "learning advice",
+        "how to learn",
+        "study methods",
+        "effective learning"
+      ],
+      "response": "Maximize your learning with our integrated tools: use the To-Do list for planning, take quizzes for assessment, and download notes for offline study!"
+    },
+    {
+      "keywords": [
+        "start learning",
+        "begin course",
+        "first steps",
+        "how to start",
+        "getting started guide"
+      ],
+      "response": "Ready to start? First, create an account or log in, then browse our courses, choose one that interests you, and begin your learning journey!",
+      "link": "Project/courses.html"
+    },
+    {
+      "keywords": [
+        "free",
+        "cost free",
+        "no charge",
+        "without payment",
+        "gratis"
+      ],
+      "response": "Many of our courses are offered free of charge! Check individual course pages for pricing details and available free content."
+    },
+    {
+      "keywords": [
+        "beginner friendly",
+        "no experience",
+        "absolute beginner",
+        "never programmed"
+      ],
+      "response": "Perfect! Our C# and Computer Science courses are designed for complete beginners. No prior programming experience needed - we'll guide you step by step!",
+      "link": "Project/courses.html"
+    },
+    {
+      "keywords": [
+        "my progress",
+        "my courses",
+        "my account",
+        "personal dashboard"
+      ],
+      "response": "View your personal learning progress, enrolled courses, and assignments in your account dashboard. Log in to access your personalized content.",
+      "link": "Login/login.php"
+    }
+  ],
+  "defaultResponse": "I'm sorry, I didn't quite understand that. Could you please rephrase your question or ask about our courses, contact information, or how I can help you?"
+}

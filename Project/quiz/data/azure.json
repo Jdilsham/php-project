@@ -1,0 +1,147 @@
+[
+  {
+    "question": "What is Microsoft Azure?",
+    "options": [
+      "Cloud computing platform",
+      "Database software",
+      "Operating system",
+      "Programming language"
+    ],
+    "answer": "Cloud computing platform"
+  },
+  {
+    "question": "Which Azure service is used for storing large amounts of unstructured data?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure SQL Database",
+      "Azure Virtual Machines",
+      "Azure Active Directory"
+    ],
+    "answer": "Azure Blob Storage"
+  },
+  {
+    "question": "What does Azure Functions provide?",
+    "options": [
+      "Serverless compute service",
+      "Virtual machines",
+      "Database service",
+      "Storage service"
+    ],
+    "answer": "Serverless compute service"
+  },
+  {
+    "question": "Which Azure service helps manage user identities?",
+    "options": [
+      "Azure Active Directory",
+      "Azure Functions",
+      "Azure DevOps",
+      "Azure Logic Apps"
+    ],
+    "answer": "Azure Active Directory"
+  },
+  {
+    "question": "What is the purpose of Azure Virtual Network?",
+    "options": [
+      "Connect Azure resources securely",
+      "Host websites",
+      "Store files",
+      "Manage databases"
+    ],
+    "answer": "Connect Azure resources securely"
+  },
+  {
+    "question": "Which service in Azure is used for monitoring and diagnostics?",
+    "options": [
+      "Azure Monitor",
+      "Azure Backup",
+      "Azure Firewall",
+      "Azure CDN"
+    ],
+    "answer": "Azure Monitor"
+  },
+  {
+    "question": "What is the SLA (Service Level Agreement) availability for Azure Virtual Machines?",
+    "options": ["99.9%", "95%", "90%", "99.99%"],
+    "answer": "99.9%"
+  },
+  {
+    "question": "Which Azure service is used for deploying containerized applications?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure SQL Database",
+      "Azure Blob Storage",
+      "Azure Functions"
+    ],
+    "answer": "Azure Kubernetes Service"
+  },
+  {
+    "question": "What is Azure DevOps used for?",
+    "options": [
+      "Continuous integration and delivery",
+      "Hosting websites",
+      "Storing files",
+      "Identity management"
+    ],
+    "answer": "Continuous integration and delivery"
+  },
+  {
+    "question": "Which Azure service offers distributed content delivery?",
+    "options": [
+      "Azure CDN",
+      "Azure Firewall",
+      "Azure Backup",
+      "Azure Blob Storage"
+    ],
+    "answer": "Azure CDN"
+  },
+  {
+    "question": "Which service is best for automated backups in Azure?",
+    "options": [
+      "Azure Backup",
+      "Azure Blob Storage",
+      "Azure Monitor",
+      "Azure Functions"
+    ],
+    "answer": "Azure Backup"
+  },
+  {
+    "question": "What does Azure Logic Apps help with?",
+    "options": [
+      "Building workflows",
+      "Managing virtual machines",
+      "Hosting databases",
+      "Network security"
+    ],
+    "answer": "Building workflows"
+  },
+  {
+    "question": "Which Azure service provides identity and access management?",
+    "options": [
+      "Azure Active Directory",
+      "Azure DevOps",
+      "Azure Monitor",
+      "Azure Logic Apps"
+    ],
+    "answer": "Azure Active Directory"
+  },
+  {
+    "question": "What is Azure Blob Storage best suited for?",
+    "options": [
+      "Unstructured data storage",
+      "Relational database storage",
+      "Virtual machine hosting",
+      "Content delivery"
+    ],
+    "answer": "Unstructured data storage"
+  },
+  {
+    "question": "Which Azure tool is used for managing resources with templates?",
+    "options": [
+      "Azure Resource Manager",
+      "Azure Functions",
+      "Azure Monitor",
+      "Azure DevOps"
+    ],
+    "answer": "Azure Resource Manager"
+  }
+]

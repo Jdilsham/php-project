@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which Python web framework is commonly used for building web applications?",
+    "options": [
+      "Django",
+      "Flask",
+      "Pyramid",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which JavaScript method is used to select an element by its ID?",
+    "options": [
+      "getElementById()",
+      "querySelector()",
+      "getElementsByClassName()",
+      "getElementsByTagName()"
+    ],
+    "answer": "getElementById()"
+  },
+  {
+    "question": "What is the file extension for Python scripts?",
+    "options": [
+      ".py",
+      ".js",
+      ".java",
+      ".html"
+    ],
+    "answer": ".py"
+  },
+  {
+    "question": "Which keyword is used in JavaScript to declare a variable?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "In Flask, which function is used to start the development server?",
+    "options": [
+      "app.run()",
+      "runServer()",
+      "start()",
+      "launch()"
+    ],
+    "answer": "app.run()"
+  },
+  {
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      "==",
+      "===",
+      "=",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "Which method in JavaScript is used to add an event listener to an element?",
+    "options": [
+      "addEventListener()",
+      "attachEvent()",
+      "on()",
+      "listen()"
+    ],
+    "answer": "addEventListener()"
+  },
+  {
+    "question": "In Django, what is the name of the file used to define URL patterns?",
+    "options": [
+      "urls.py",
+      "views.py",
+      "models.py",
+      "settings.py"
+    ],
+    "answer": "urls.py"
+  },
+  {
+    "question": "Which JavaScript function converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.toObject()"
+    ],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "How do you create a function in Python?",
+    "options": [
+      "function myFunc():",
+      "def myFunc():",
+      "func myFunc():",
+      "create myFunc():"
+    ],
+    "answer": "def myFunc():"
+  },
+  {
+    "question": "Which method is used to send data to a server in JavaScript?",
+    "options": [
+      "fetch()",
+      "send()",
+      "post()",
+      "request()"
+    ],
+    "answer": "fetch()"
+  },
+  {
+    "question": "In JavaScript, which of the following is used to declare a constant variable?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "constant"
+    ],
+    "answer": "const"
+  },
+  {
+    "question": "Which Python keyword is used to import modules?",
+    "options": [
+      "include",
+      "import",
+      "require",
+      "using"
+    ],
+    "answer": "import"
+  },
+  {
+    "question": "In JavaScript, how do you write a comment?",
+    "options": [
+      "// This is a comment",
+      "# This is a comment",
+      "<!-- This is a comment -->",
+      "/* This is a comment */"
+    ],
+    "answer": "// This is a comment"
+  },
+  {
+    "question": "What is the purpose of the 'self' parameter in Python class methods?",
+    "options": [
+      "To refer to the instance of the class",
+      "To refer to the parent class",
+      "To refer to a static method",
+      "None of the above"
+    ],
+    "answer": "To refer to the instance of the class"
+  }
+]

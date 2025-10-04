@@ -1,0 +1,137 @@
+[
+  {
+    "question": "What is supervised learning?",
+    "options": [
+      "Learning from labeled data",
+      "Learning from unlabeled data",
+      "Learning by trial and error",
+      "Learning without data"
+    ],
+    "answer": "Learning from labeled data"
+  },
+  {
+    "question": "Which algorithm is used for classification problems?",
+    "options": [
+      "Logistic Regression",
+      "Linear Regression",
+      "K-Means Clustering",
+      "PCA"
+    ],
+    "answer": "Logistic Regression"
+  },
+  {
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs well on training data but poorly on test data",
+      "Model performs well on both training and test data",
+      "Model performs poorly on training data",
+      "Model is too simple"
+    ],
+    "answer": "Model performs well on training data but poorly on test data"
+  },
+  {
+    "question": "Which metric is commonly used to evaluate regression models?",
+    "options": ["Accuracy", "MSE", "Precision", "Recall"],
+    "answer": "MSE"
+  },
+  {
+    "question": "What does 'unsupervised learning' mean?",
+    "options": [
+      "Learning from unlabeled data",
+      "Learning from labeled data",
+      "Learning without a model",
+      "Learning by reinforcement"
+    ],
+    "answer": "Learning from unlabeled data"
+  },
+  {
+    "question": "Which of the following is a clustering algorithm?",
+    "options": ["K-Means", "Decision Tree", "Random Forest", "Naive Bayes"],
+    "answer": "K-Means"
+  },
+  {
+    "question": "What is feature scaling?",
+    "options": [
+      "Normalizing data features",
+      "Selecting important features",
+      "Removing features",
+      "Adding new features"
+    ],
+    "answer": "Normalizing data features"
+  },
+  {
+    "question": "What is the role of the activation function in neural networks?",
+    "options": [
+      "Introduce non-linearity",
+      "Reduce dimensionality",
+      "Normalize input",
+      "Scale outputs"
+    ],
+    "answer": "Introduce non-linearity"
+  },
+  {
+    "question": "What does PCA stand for?",
+    "options": [
+      "Principal Component Analysis",
+      "Partial Component Analysis",
+      "Principal Correlation Analysis",
+      "Primary Component Algorithm"
+    ],
+    "answer": "Principal Component Analysis"
+  },
+  {
+    "question": "Which type of machine learning involves rewards and penalties?",
+    "options": [
+      "Reinforcement Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Deep Learning"
+    ],
+    "answer": "Reinforcement Learning"
+  },
+  {
+    "question": "What is a confusion matrix used for?",
+    "options": [
+      "Evaluating classification performance",
+      "Reducing data dimensionality",
+      "Visualizing data",
+      "Training models"
+    ],
+    "answer": "Evaluating classification performance"
+  },
+  {
+    "question": "Which of the following is NOT a type of neural network?",
+    "options": [
+      "Convolutional Neural Network",
+      "Recurrent Neural Network",
+      "Random Neural Network",
+      "Feedforward Neural Network"
+    ],
+    "answer": "Random Neural Network"
+  },
+  {
+    "question": "What is 'gradient descent'?",
+    "options": [
+      "Optimization algorithm",
+      "Data preprocessing method",
+      "Activation function",
+      "Regularization technique"
+    ],
+    "answer": "Optimization algorithm"
+  },
+  {
+    "question": "Which library is popular for machine learning in Python?",
+    "options": ["TensorFlow", "Bootstrap", "React", "Angular"],
+    "answer": "TensorFlow"
+  },
+  {
+    "question": "What is 'bias' in machine learning?",
+    "options": [
+      "Error from erroneous assumptions",
+      "Variance in model",
+      "Feature scaling method",
+      "Model complexity"
+    ],
+    "answer": "Error from erroneous assumptions"
+  }
+]
