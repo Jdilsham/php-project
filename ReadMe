@@ -1,56 +1,63 @@
-# 📚 PHP Group Project – Online Learning & Task Management Platform
-
-### 🌐 Live Demo  
-https://php-project-9dc85a7a966f.herokuapp.com/
+# 🧑‍💻 Project: PHP Online Learning & Task Management Platform
 
 ---
 
-## 📌 Overview
-This is a PHP-based online learning and productivity platform developed as a group project.  
-It includes modules for learning, quizzes, to-do task management, user authentication, admin control, and a simple chatbot.  
-The project also includes Docker support and a basic CI/CD structure.
+## 🧾 Overview
+This project is a PHP-based online learning and productivity platform developed as a group project.  
+It includes modules such as learning pages, quizzes, a to-do task manager, authentication, an admin panel, and a simple chatbot.  
+The project also supports Docker deployment and includes a CI/CD structure.
 
 ---
 
 ## 🚀 Features
 
 ### 🔐 Authentication
-- Login and Sign-Up  
+- Login and Sign-Up system  
 - Secure session handling  
 
 ### 📘 Learning Pages
-- Multiple subject pages  
-- Simple educational content  
+- Multiple educational subjects  
+- Static content pages  
 
 ### 📝 Quiz Module
-- Basic quiz questions  
-- Knowledge testing  
+- Basic quizzes for knowledge testing  
 
 ### ✅ To-Do Task Manager
 - Add tasks  
 - Delete tasks  
-- Manage personal to-do list  
+- Manage personal task list  
 
 ### 🛠 Admin Panel
-- Manage users  
-- View and update content  
+- Manage user accounts  
+- View system data  
 
 ### 🤖 Chatbot
-- Predefined responses  
-- Embedded in dashboard  
+- Predefined responses for user interaction  
 
 ### 🐳 Docker Support
-- Dockerfile for PHP environment  
-- docker-compose.yml for multi-service setup  
+- Dockerfile for the PHP runtime  
+- docker-compose.yml for multi-container setup  
 - heroku.yml for deployment  
 
 ---
 
 ## 🛠 Tech Stack
 
-**Backend:** PHP, MySQL, Composer  
-**Frontend:** HTML, CSS, JavaScript  
-**DevOps:** Docker, Docker Compose, GitHub Actions, Heroku  
+### 🔧 Backend
+- PHP  
+- MySQL  
+- Composer  
+
+### 🎨 Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### ☁️ DevOps / Deployment
+- Docker  
+- Docker Compose  
+- GitHub Actions  
+- Heroku  
 
 ---
 
