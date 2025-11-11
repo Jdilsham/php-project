@@ -7,42 +7,42 @@ https://php-project-9dc85a7a966f.herokuapp.com/
 
 ## 📌 Overview
 This is a PHP-based online learning and productivity platform developed as a group project.  
-It includes modules for learning, quizzes, to-do task management, authentication, admin control, and a simple chatbot.  
-The project also supports Docker and includes a basic CI/CD structure.
+It includes modules for learning, quizzes, to-do task management, user authentication, admin control, and a simple chatbot.  
+The project also includes Docker support and a basic CI/CD structure.
 
 ---
 
 ## 🚀 Features
 
 ### 🔐 Authentication
-- Login and Sign-Up
-- Secure session handling
+- Login and Sign-Up  
+- Secure session handling  
 
 ### 📘 Learning Pages
-- Multiple course pages
-- Simple educational content
+- Multiple subject pages  
+- Simple educational content  
 
 ### 📝 Quiz Module
-- Basic quiz pages
-- Knowledge testing
+- Basic quiz questions  
+- Knowledge testing  
 
 ### ✅ To-Do Task Manager
 - Add tasks  
 - Delete tasks  
-- Manage personal task list
+- Manage personal to-do list  
 
 ### 🛠 Admin Panel
 - Manage users  
-- View system data  
+- View and update content  
 
 ### 🤖 Chatbot
 - Predefined responses  
-- Integrated in the dashboard  
+- Embedded in dashboard  
 
 ### 🐳 Docker Support
-- Dockerfile (PHP environment)  
-- docker-compose.yml  
-- heroku.yml (deployment support)
+- Dockerfile for PHP environment  
+- docker-compose.yml for multi-service setup  
+- heroku.yml for deployment  
 
 ---
 
@@ -55,5 +55,4 @@ The project also supports Docker and includes a basic CI/CD structure.
 ---
 
 ## 📁 Project Structure
-
 
