@@ -1,65 +1,91 @@
-# 🧑‍💻 Project: PHP Online Learning & Task Management Platform
+# 🧑‍💻 PHP Online Learning & Task Management Platform
+
+## 📌 Overview  
+This is a modern PHP-based online learning and productivity platform built as a group project.  
+It includes learning modules, quizzes, a to-do manager, authentication, an admin dashboard, and a simple chatbot.  
+The project supports Docker deployment and includes a CI/CD workflow with GitHub Actions.
 
 ---
 
-## 🧾 Overview
-This project is a PHP-based online learning and productivity platform developed as a group project.  
-It includes modules such as learning pages, quizzes, a to-do task manager, authentication, an admin panel, and a simple chatbot.  
-The project also supports Docker deployment and includes a CI/CD structure.
+## ✨ Features  
+- 🔐 User Authentication (Login & Signup)  
+- 📘 Learning Pages  
+- 📝 Quiz Module  
+- ✅ To-Do Task Manager  
+- 🛠️ Admin Dashboard  
+- 🤖 Simple Chatbot  
+- 🐳 Docker Support  
+- 🚀 CI/CD Pipeline (GitHub Actions)  
+- ☁️ Heroku Deployment Files  
 
 ---
 
-## 🚀 Features
-
-### 🔐 Authentication
-- Login and Sign-Up system  
-- Secure session handling  
-
-### 📘 Learning Pages
-- Multiple educational subjects  
-- Static content pages  
-
-### 📝 Quiz Module
-- Basic quizzes for knowledge testing  
-
-### ✅ To-Do Task Manager
-- Add tasks  
-- Delete tasks  
-- Manage personal task list  
-
-### 🛠 Admin Panel
-- Manage user accounts  
-- View system data  
-
-### 🤖 Chatbot
-- Predefined responses for user interaction  
-
-### 🐳 Docker Support
-- Dockerfile for the PHP runtime  
-- docker-compose.yml for multi-container setup  
-- heroku.yml for deployment  
+## 📁 Project Structure  
+```
+├── Admin/
+├── Login/
+├── SignUp/
+├── Project/              
+├── To-Do/
+├── chatbot/
+├── vendor/              
+├── connection.php
+├── index.php
+├── composer.json
+├── composer.lock
+├── Dockerfile
+├── docker-compose.yml
+├── heroku.yml
+├── README.md
+└── .github/workflows/    
+```
 
 ---
 
-## 🛠 Tech Stack
+## ⚙️ Installation
 
-### 🔧 Backend
-- PHP  
-- MySQL  
+### ✅ Requirements  
+- PHP 8+  
 - Composer  
+- MySQL  
+- Docker (optional)
 
-### 🎨 Frontend
-- HTML  
-- CSS  
-- JavaScript  
+### 📥 Install Dependencies  
 
-### ☁️ DevOps / Deployment
-- Docker  
-- Docker Compose  
-- GitHub Actions  
-- Heroku  
+composer install
+
+
+### 🗄️ Import Database  
+- Create a MySQL database  
+- Import the provided SQL file (if available)  
+- Update credentials in `connection.php`
 
 ---
 
-## 📁 Project Structure
+## 🐳 Run with Docker  
+Start the application using Docker Compose:
 
+docker-compose up -d
+
+
+Application will be available at:
+
+http://localhost:8080
+
+---
+
+## 🚀 Deployment
+
+### ✅ GitHub Actions  
+The repository includes an automated build and deployment workflow located in:
+
+.github/workflows/
+
+
+### ✅ Heroku  
+This project contains a `heroku.yml` file for container-based deployment on Heroku.
+
+---
+
+## 👥 Team  
+This platform was developed as a collaborative group project focused on learning, productivity, and full-stack PHP development.
