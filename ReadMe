@@ -1,5 +1,72 @@
-Database Password: qsyxbghov9gu8ich
+# 📚 PHP Group Project – Online Learning & Task Management Platform
 
-email password: ptda zwhv nkfm uzli
+🌐 **Live Demo:**  
+https://php-project-9dc85a7a966f.herokuapp.com/
 
-JAWSDB_URL: mysql://gqxd5e1uu0ws6hsv:qsyxbghov9gu8ich@xefi550t7t6tjn36.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/x5f9g037rl5504pl
+------------------------------------------------------------
+
+## 📌 1. Overview
+
+This is a PHP-based **online learning and productivity platform** developed as a group project.  
+It includes modules for learning, quizzes, to-do tasks, authentication, admin management, and a simple chatbot.  
+The project also includes **Docker support** and **CI/CD folder structure**, making it deployment-ready.
+
+------------------------------------------------------------
+
+## 🚀 2. Main Features
+
+### 🔐 User Authentication
+- Login & Sign-Up functionality  
+- Secure sessions  
+- Input validation  
+
+### 📘 Learning Module
+- Course pages for multiple subjects  
+- Educational content  
+
+### 📝 Quiz System
+- Basic quiz pages  
+- Knowledge testing  
+
+### ✅ To-Do Task Manager
+- Add personal tasks  
+- Delete tasks  
+- Simple user dashboard  
+
+### 🛠 Admin Panel
+- Manage user accounts  
+- View system data  
+
+### 🤖 Chatbot
+- Basic chatbot with predefined replies  
+- Helps users inside the dashboard  
+
+### 🐳 Docker Deployment
+- Dockerfile for PHP container  
+- docker-compose.yml for multi-service setup  
+- heroku.yml for deployment support  
+
+------------------------------------------------------------
+
+## 🛠 3. Technology Stack
+
+### 🔧 Backend
+- PHP  
+- MySQL  
+- Composer  
+
+### 🎨 Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### ☁️ DevOps / Deployment
+- Docker  
+- Docker Compose  
+- GitHub Actions  
+- Heroku  
+
+------------------------------------------------------------
+
+## 📁 4. Project Structure
+
