@@ -28,7 +28,6 @@
             $row = $result->fetch_assoc();
 
             if(password_verify($password,$row['password'])){
-                // ✅ Store user data in session
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['email'] = $row['email'];
                 $_SESSION['name'] = $row['name'];

@@ -39,7 +39,6 @@ if (isset($_SESSION['email'])) {
 </head>
 
 <body>
-	<!-- ✅ Show popup success -->
 	<?php if (isset($_GET['success'])): ?>
 		<script>
 			alert("<?php echo htmlspecialchars($_GET['success']); ?>");
@@ -71,7 +70,7 @@ if (isset($_SESSION['email'])) {
 						<input class="input100" type="password" name="pass" id="password" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 
-						<!-- 👁️ Toggle Icon -->
+						
 						<span class="toggle-password" onclick="togglePassword()" style="position:absolute; right:20px; top:38px; cursor:pointer;">
 							<i class="fa fa-eye" id="eyeIcon"></i>
 						</span>
