@@ -26,7 +26,12 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=3
-  
+  #The database in CI is optional. 
+  #It is only required when running integration or database-related tests. 
+  #In my current setup, MySQL is included to support future automated tests, 
+  #but it can be removed if only build validation is required.
+  #but it can be removed if only build validation is required.
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -45,7 +50,7 @@ jobs:
           if [ -f vendor/bin/phpunit ]; then
             vendor/bin/phpunit --coverage-text
           else
-            echo "⚠️ No tests found, skipping"
+            echo "No tests found, skipping"
           fi
 
 
