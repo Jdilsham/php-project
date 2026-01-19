@@ -77,5 +77,5 @@ jobs:
         
       - name: Trigger Jenkins CD
         run: |
-          curl -X POST \
+          curl -v -X POST \
           "http://${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_TOKEN }}@${{ secrets.JENKINS_URL }}:8080/job/php-app-cd/buildWithParameters?IMAGE_TAG=${{ steps.vars.outputs.VERSION_TAG }}"
