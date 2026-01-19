@@ -16,13 +16,15 @@ pipeline{
     
     environment {
         DOCKERHUB_USER	=	credentials('dockerhub-username')
-		IMAGE_NAME		=	credentials('dockerhub-image-name')
-		GCP_PROJECT		=	credentials('gcp-project')
-		GKE_CLUSTER		=	credentials('gke-cluster-name')
-		GKE_ZONE		=	credentials('gke-zone')
-		K8S_NAMESPACE	=	credentials('k8s-namespace')
+		IMAGE_NAME		=	credentials('dockerhub-php-image-name')
+		AWS_ACCESS_KEY_ID     = credentials('aws-access-key-id')
+        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
+        AWS_DEFAULT_REGION    = credentials('aws-region')
 
-		NEW_IMAGE		=	"${DOCKERHUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
+        EKS_CLUSTER      = credentials('eks-cluster-name')
+        K8S_NAMESPACE    = credentials('k8s-php-namespace')
+
+        NEW_IMAGE = "${DOCKERHUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
     }
 
     stages{
@@ -32,16 +34,16 @@ pipeline{
             }
         }
 
-        stage('GCloud Auth & Connect to GKE'){
-            steps{
-                withCredentials([file(credentialsId: 'gcp-sa', variable: 'GCLOUD_KEY')]) {
-					sh """
-						echo Authenticating to Google Cloud...
-                        gcloud auth activate-service-account --key-file=${GCLOUD_KEY}
-                        gcloud config set project ${GCP_PROJECT}
-                        gcloud container clusters get-credentials ${GKE_CLUSTER} --zone ${GKE_ZONE}
-                    """
-                }
+        stage('Authenticate to AWS & Connect to EKS') {
+            steps {
+                sh '''
+                    echo "Configuring AWS CLI..."
+                    aws --version
+
+                    aws eks update-kubeconfig \
+                      --region ${AWS_DEFAULT_REGION} \
+                      --name ${EKS_CLUSTER}
+                '''
             }
         }
 
