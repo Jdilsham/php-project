@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-init
+  namespace: php-app
+data:
+  init.sql: |
+    -- Create database
+    CREATE DATABASE IF NOT EXISTS mydb;
+    USE mydb;
+
+    -- Contacts table
+    DROP TABLE IF EXISTS contacts;
+    CREATE TABLE contacts (
+      id INT NOT NULL AUTO_INCREMENT,
+      name VARCHAR(100) DEFAULT NULL,
+      email VARCHAR(100) DEFAULT NULL,
+      subject VARCHAR(100) DEFAULT NULL,
+      message VARCHAR(250) DEFAULT NULL,
+      created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (id)
+    );
+
+    -- Courses table
+    DROP TABLE IF EXISTS courses;
+    CREATE TABLE courses (
+      id INT NOT NULL AUTO_INCREMENT,
+      title VARCHAR(255) NOT NULL,
+      description TEXT NOT NULL,
+      img VARCHAR(255) NOT NULL,
+      link VARCHAR(255) NOT NULL,
+      PRIMARY KEY (id)
+    );
+
+    -- Users table
+    DROP TABLE IF EXISTS users;
+    CREATE TABLE users (
+      id INT NOT NULL AUTO_INCREMENT,
+      name VARCHAR(255) NOT NULL,
+      email VARCHAR(255) NOT NULL,
+      password VARCHAR(255) NOT NULL,
+      created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (id),
+      UNIQUE KEY email (email)
+    );
+
+    -- Todo list table
+    DROP TABLE IF EXISTS todo_list;
+    CREATE TABLE todo_list (
+      todo_id INT NOT NULL AUTO_INCREMENT,
+      task VARCHAR(255) NOT NULL,
+      mark ENUM('Uncome','Completed') DEFAULT 'Uncome',
+      created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+      user_id INT DEFAULT NULL,
+      PRIMARY KEY (todo_id)
+    );
