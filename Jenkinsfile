@@ -17,7 +17,7 @@ pipeline{
     environment {
         DOCKERHUB_USER	=	credentials('dockerhub-username')
 		IMAGE_NAME		=	credentials('dockerhub-image-name')
-		GCP_PROJECT		=	credentials('gcp-project-id')
+		GCP_PROJECT		=	credentials('gcp-project')
 		GKE_CLUSTER		=	credentials('gke-cluster-name')
 		GKE_ZONE		=	credentials('gke-zone')
 		K8S_NAMESPACE	=	credentials('k8s-namespace')
